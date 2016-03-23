@@ -36,7 +36,3 @@ css:
       - ['@media.+\(.*max-width', 'Media queries with `max-width` should not be used — use `min-width` instead']
       - ['@media.+\(.*px', 'Pixel units should not be used in media queries — use `em` instead']
       - ['float:', 'Use `display: inline-block` not `float` for this assignment']
-
-screenshots:
-  - path: "index.html"
-    sizes: [320, 400, 650, 980]
